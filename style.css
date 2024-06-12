@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.wrapper {
+    margin-inline: auto;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 250px;
+    overflow: hidden;
+    text-align: start;
+    padding: 10px;
+}
+
+.formUsers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.users{
+    width: 200px;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    background: #fff;
+    color: #000;
+}
+
+.limitAge{
+    width: 200px;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    background: #fff;
+    color: #000;
+}
+
+.btn{
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    background: #fff;
+    color: #000;
+}
